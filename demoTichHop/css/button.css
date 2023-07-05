@@ -1,0 +1,20 @@
+﻿.simpletransit {
+    color: #fff;
+    background-color: #5cb85c;
+    height: 50px;
+    width: 340px;
+    padding: 10px;
+    font-size: 18px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    border-radius: 2px 2px 2px 2px;
+    transition: width 2s, height 4s;
+    -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+    -webkit-transition-delay: 1s; /* Safari */
+    transition-delay: 1s;
+    font-family: Arial, Helvetica;
+}
+
+    .simpletransit:hover {
+        cursor: pointer;
+    }
